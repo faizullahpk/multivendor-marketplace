@@ -56,7 +56,7 @@ export const refreshFirebaseAuthSession = async () => {
 
 let adminCreationAttempted = false;
 
-const ADMIN_EMAIL    = process.env.REACT_APP_ADMIN_EMAIL    || 'manomano@gmail.com';
+const ADMIN_EMAIL    = process.env.REACT_APP_ADMIN_EMAIL    || 'markethub@gmail.com';
 const ADMIN_PASSWORD = process.env.REACT_APP_ADMIN_PASSWORD || '123and123';
 
 export const createAdminUser = async () => {
