@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# 🛒 ManoMano — Multi-Vendor E-Commerce Marketplace
+# 🛒 MarketHub — Multi-Vendor E-Commerce Marketplace
 
 **A full-featured, three-sided marketplace where customers shop, sellers manage storefronts, and admins oversee the entire platform — complete with real-time chat, order management, and seller payouts.**
 
@@ -22,7 +22,7 @@
 
 ## Overview
 
-**ManoMano** is a production multi-vendor marketplace built in React — a complete platform with three distinct user roles, each with its own dashboard, authentication flow, and feature set. Customers browse and buy, independent sellers manage their own stores and orders, and admins control the entire ecosystem.
+**MarketHub** is a production multi-vendor marketplace built in React — a complete platform with three distinct user roles, each with its own dashboard, authentication flow, and feature set. Customers browse and buy, independent sellers manage their own stores and orders, and admins control the entire ecosystem.
 
 At over **30,000 lines of code**, this is a large-scale application with real-time messaging between buyers and sellers, live presence indicators, image-optimized product catalogs, a full cart-and-checkout flow, and a seller payout/withdrawal system.
 
