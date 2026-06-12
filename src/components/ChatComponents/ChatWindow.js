@@ -250,7 +250,7 @@ const ChatWindow = ({
       const msgs = currentMessages || messagesRef.current;
       const unreadFromOther = msgs.filter(m => {
         if (m.isRead) return false;
-        const isAdminMessage = m.senderName === 'manomano@gmail.com' || m.senderName === 'Customer Care';
+        const isAdminMessage = m.senderName === 'markethub@gmail.com' || m.senderName === 'Customer Care';
         return isAdmin ? !isAdminMessage : isAdminMessage;
       });
 
@@ -362,7 +362,7 @@ const ChatWindow = ({
 
   const displayUserDetails = otherUserDetails || localUserDetails;
   const displayName =
-    displayUserDetails?.displayName === 'manomano@gmail.com' ||
+    displayUserDetails?.displayName === 'markethub@gmail.com' ||
     displayUserDetails?.displayName === 'Customer Care'
       ? 'Customer Care'
       : displayUserDetails?.displayName || 'Chat';
