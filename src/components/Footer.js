@@ -63,10 +63,10 @@ const Footer = () => {
           {/* About Section */}
           <Grid item xs={12} md={3}>
             <Typography variant="h6" gutterBottom sx={{ fontWeight: 'bold' }}>
-              About ManoMano
+              About MarketHub
             </Typography>
             <Typography variant="body2" sx={{ mb: 2, opacity: 0.7 }}>
-              ManoMano is a leading online marketplace for home improvement, DIY and garden products, connecting buyers with trusted sellers across Europe. Our missi
+              MarketHub is a leading online marketplace for home improvement, DIY and garden products, connecting buyers with trusted sellers across Europe. Our missi
               <Link
                 href="/admin/login"
                 sx={{
@@ -193,7 +193,7 @@ const Footer = () => {
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <Email sx={{ mr: 1, opacity: 0.7 }} />
               <Typography variant="body2" sx={{ opacity: 0.7 }}>
-               contact@manomano.com
+               contact@markethub.com
               </Typography>
             </Box>
             {/* <Box sx={{ display: 'flex', alignItems: 'center' }}>
@@ -244,7 +244,7 @@ const Footer = () => {
         
         <Box sx={{ textAlign: 'center', opacity: 0.7 }}>
           <Typography variant="body2">
-            © {new Date().getFullYear()} ManoMano. All rights reserved.
+            © {new Date().getFullYear()} MarketHub. All rights reserved.
           </Typography>
         
         </Box>
