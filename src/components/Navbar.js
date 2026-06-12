@@ -374,7 +374,7 @@ const Navbar = ({ isAdmin, setIsAdmin, isCustomer, setIsCustomer, isSeller, setI
             }}
             onClick={() => navigate('/')}
           >
-            {/* ManoMano hexagon logo (inline SVG — no external image needed) */}
+            {/* MarketHub hexagon logo (inline SVG — no external image needed) */}
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
               <Box
                 component="svg"
@@ -413,7 +413,7 @@ const Navbar = ({ isAdmin, setIsAdmin, isCustomer, setIsCustomer, isSeller, setI
                   display: 'block'
                 }}
               >
-                ManoMano
+                MarketHub
               </Typography>
             </Box>
           </Box>
