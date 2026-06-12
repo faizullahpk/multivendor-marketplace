@@ -111,7 +111,7 @@ const ChatList = ({ chats, selectedChatId, onSelectChat, currentUserIsAdmin }) =
       ) : (
         chats.map((chat, index) => {
           const isCustomerCare =
-            chat.otherUserName === 'manomano@gmail.com' ||
+            chat.otherUserName === 'markethub@gmail.com' ||
             chat.otherUserName === 'Customer Care';
           const displayName = isCustomerCare ? 'Customer Care' : (chat.otherUserName || 'Unknown User');
           const avatarLetter = isCustomerCare ? 'C' : (chat.otherUserName?.charAt(0)?.toUpperCase() || '?');
