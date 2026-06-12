@@ -160,14 +160,14 @@ const Message = ({ message, isAdmin, onDeleteMessage }) => {
   const [menuAnchorEl, setMenuAnchorEl] = useState(null);
 
   const displayName =
-    senderName === 'manomano@gmail.com' || senderName === 'Customer Care'
+    senderName === 'markethub@gmail.com' || senderName === 'Customer Care'
       ? 'Customer Care'
       : senderName;
 
   // isCurrentUserMessage: true when this message was sent by the currently logged-in user
   const isCurrentUserMessage =
-    (isAdmin && (senderName === 'manomano@gmail.com' || senderName === 'Customer Care')) ||
-    (!isAdmin && senderName !== 'manomano@gmail.com' && senderName !== 'Customer Care');
+    (isAdmin && (senderName === 'markethub@gmail.com' || senderName === 'Customer Care')) ||
+    (!isAdmin && senderName !== 'markethub@gmail.com' && senderName !== 'Customer Care');
 
   // Show ticks ONLY for messages sent by the admin (read receipt for admin → seller direction)
   const showTicks = isAdmin && isCurrentUserMessage;
@@ -250,7 +250,7 @@ const Message = ({ message, isAdmin, onDeleteMessage }) => {
       {/* Avatar on the RIGHT for outgoing messages */}
       {isCurrentUserMessage && (
         <MessageAvatar
-          alt={senderName === 'manomano@gmail.com' || senderName === 'Customer Care' ? 'Customer Care' : displayName}
+          alt={senderName === 'markethub@gmail.com' || senderName === 'Customer Care' ? 'Customer Care' : displayName}
           isAdmin={isAdmin}
         />
       )}
